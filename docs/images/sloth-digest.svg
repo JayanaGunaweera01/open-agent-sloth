@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="263" viewBox="0 0 820 263" role="img" aria-label="openagent sloth digest and watch">
+<title>openagent sloth digest and watch</title>
+<rect width="820" height="263" rx="12" fill="#1e1f22"/>
+<path d="M0 12a12 12 0 0 1 12-12h796a12 12 0 0 1 12 12v24H0z" fill="#2b2d31"/>
+<circle cx="20" cy="18" r="6" fill="#ff5f57"/><circle cx="40" cy="18" r="6" fill="#febc2e"/><circle cx="60" cy="18" r="6" fill="#28c840"/>
+<text x="84" y="22" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#9a9da3">openagent sloth digest and watch</text>
+<text x="18" y="70" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#7fd6a4">$ </tspan><tspan fill="#d8dae0">openagent sloth digest overnight-group-chat.txt</tspan></text>
+<text x="18" y="91" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d8dae0">Dinner moved to Friday 7pm at Sam&#x27;s; Priya is bringing dessert.</tspan></text>
+<text x="18" y="112" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d8dae0">Reply to Alex about the venue deposit before noon.</tspan></text>
+<text x="18" y="133" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d8dae0"></tspan></text>
+<text x="18" y="154" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#7fd6a4">$ </tspan><tspan fill="#d8dae0">cat chat.txt | openagent sloth digest -</tspan></text>
+<text x="18" y="175" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d8dae0"></tspan></text>
+<text x="18" y="196" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#7fd6a4">$ </tspan><tspan fill="#d8dae0">openagent sloth watch ~/Downloads</tspan><tspan fill="#8ab4f8"> --every 6h</tspan></text>
+<text x="18" y="217" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d8dae0">Watching ~/Downloads every 6h0m0s. Ctrl-C to stop.</tspan></text>
+<text x="18" y="238" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13"><tspan fill="#d8dae0">Already tidy. Nothing to do.</tspan></text>
+</svg>
