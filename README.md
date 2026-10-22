@@ -32,6 +32,22 @@
 
 It's for anyone with a chaotic Downloads folder, a group chat with 400 unread messages, or both.
 
+## See it in action
+
+Check that everything is ready:
+
+<p align="center"><img src="docs/images/sloth-doctor.svg" alt="Terminal showing openagent sloth doctor reporting that Ollama and the gemma4:e4b model are ready" width="720"></p>
+
+Tidy a messy folder. It previews first, moves files only with `--apply`, and `undo` puts them back:
+
+<p align="center"><img src="docs/images/sloth-tidy.svg" alt="Terminal showing openagent sloth tidy as a dry run, then with --apply, then undo" width="780"></p>
+
+Digest a chat in two lines, or leave the tidier running on a timer:
+
+<p align="center"><img src="docs/images/sloth-digest.svg" alt="Terminal showing openagent sloth digest producing a two-line summary and sloth watch tidying every six hours" width="720"></p>
+
+> These are illustrative examples. File names and digest text will match your own folders and chats.
+
 ## Quick start
 
 **Prerequisites:** [Go](https://go.dev/dl) 1.25+ and [Ollama](https://ollama.com).
