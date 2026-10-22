@@ -20,6 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/the-open-agent/openagent/internal/sloth"
 )
 
 const progName = "openagent"
@@ -44,6 +45,9 @@ func EarlyDispatch() (handled bool, exitCode int, openBrowser bool) {
 		case "-h", "--help", "help":
 			printHelp()
 			return true, 0, false
+		case "sloth":
+			// Lazy local helpers: no database, login or server needed.
+			return true, sloth.Run(os.Args[2:], os.Stdin, os.Stdout, os.Stderr), false
 		case "serve", "gateway", "run", "start":
 			// Match OpenClaw-style explicit "gateway" while keeping zero-arg default as serve.
 			os.Args = append([]string{os.Args[0]}, os.Args[2:]...)
@@ -84,6 +88,7 @@ Usage:
   %[1]s serve               Start the HTTP server (explicit)
   %[1]s gateway             Same as serve (OpenClaw-style alias)
   %[1]s run | start         Same as serve
+  %[1]s sloth               Lazy local helpers: tidy files, digest chats (see: %[1]s sloth help)
   %[1]s version             Print version (%[1]s -v, %[1]s --version)
   %[1]s help                Show this help (%[1]s -h, %[1]s --help)
 
