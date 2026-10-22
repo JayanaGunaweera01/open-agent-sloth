@@ -19,7 +19,6 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-
 )
 
 const progName = "openagent"
@@ -98,3 +97,4 @@ Examples:
 Release builds can embed version via go build -ldflags (see internal/cli.Version).
 `, exe)
 }
+
