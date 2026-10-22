@@ -32,8 +32,10 @@ const undoFile = ".sloth-undo.json"
 // paths. Anything it returns outside this list becomes "Misc".
 var Categories = []string{"Documents", "Images", "Screenshots", "Invoices", "Code", "Data", "Archives", "Media", "Misc"}
 
-var textExts = map[string]bool{".txt": true, ".md": true, ".csv": true, ".json": true, ".log": true,
-	".go": true, ".py": true, ".js": true, ".ts": true, ".html": true, ".yml": true, ".yaml": true}
+var textExts = map[string]bool{
+	".txt": true, ".md": true, ".csv": true, ".json": true, ".log": true,
+	".go": true, ".py": true, ".js": true, ".ts": true, ".html": true, ".yml": true, ".yaml": true,
+}
 
 var extCategory = map[string]string{
 	".pdf": "Documents", ".doc": "Documents", ".docx": "Documents", ".odt": "Documents", ".txt": "Documents", ".md": "Documents",
